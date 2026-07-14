@@ -1,0 +1,78 @@
+from turtle import *
+
+# we wont to paint a house 
+
+# step 1 make a square for the house
+speed (30)
+width(7)
+color("red")
+forward (200)
+left (90)
+forward (200)
+left (90)
+forward (200)
+left (90)
+forward (200)
+left (90)
+forward (70)
+
+color ("yellow")
+begin_fill()
+
+left (90)
+forward (100)
+right (90)
+forward (70)
+right (90)
+forward (100)
+end_fill()
+
+penup()
+goto(200, 200)
+pendown()
+
+
+
+color ("blue")
+begin_fill()
+right (150)
+forward (200)
+left (120)
+forward (200)
+end_fill()
+right (60)
+
+penup()
+goto (60, 110)
+pendown()
+
+color ("black")
+begin_fill()
+forward (30)
+right (90)
+forward (30)
+right (90)
+forward (30)
+right (90)
+forward (30)
+right (90)
+forward (30)
+right (90)
+end_fill()
+
+penup()
+goto (140, 110)
+pendown()
+begin_fill()
+forward (30)
+right (90)
+forward (30)
+right (90)
+forward (30)
+right (90)
+forward (30)
+right (90)
+forward (30)
+right (90)
+end_fill()
+exitonclick()
