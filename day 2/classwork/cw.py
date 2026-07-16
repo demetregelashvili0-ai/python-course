@@ -1,1 +1,2 @@
-print(14)
+box = 6
+print (box)
