@@ -1,6 +1,6 @@
 #7) მომხმარებელს შემოატანინე რიცხვი. თუ ის ლუწია, დაბეჭდე:
 #"ლუწი რიცხვია."
-num = input("enter numer ")
+num = int(input("enter numer "))
 
 if num % 2 == 0:
      print("ლუწი რიცხვია")
