@@ -1,0 +1,6 @@
+#2 პირველ დავალებაში შექმნილი ცვლადები გადაიყვანე ინტეჯერად რო მოახდინო მათემატიკური მოქმედებები
+
+num1 = int(input("enter your age" ))
+num2 = int(input("enter your number"))
+
+print ( num1 + num2)
