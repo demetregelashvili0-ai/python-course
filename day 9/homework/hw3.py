@@ -2,4 +2,4 @@
 #"პაროლი სწორია."
 password = int(input("enter password"))
 if password == 11222:
-  print(password)
+  print("პაროლი სწორია")
