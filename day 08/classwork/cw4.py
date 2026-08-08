@@ -1,0 +1,4 @@
+#4. შექმენი ორი Boolean ცვლადი: `has_money` და `has_card`. გამოიყენე `or` და შეამოწმე, აქვს თუ არა ადამიანს ფულის გადახდის საშუალება.
+has_money = False
+has_card = True
+print(bool(has_card or has_money))
