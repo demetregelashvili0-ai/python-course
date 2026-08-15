@@ -4,8 +4,9 @@ total = 0
 while True:
     i = int(input("შეიყვანე რიცხვი: "))
 
-    if i == 0:
+    if i < 0:
         break
+
 
     total += i
 
