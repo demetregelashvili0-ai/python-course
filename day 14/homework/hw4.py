@@ -4,7 +4,7 @@
 
 max_num = int(input("შეიყვანე რიცხვი: "))
 
-for i in range(5):
+for i in range(4):
     num = int(input("შეიყვანე რიცხვი: "))
     if num > max_num:
         max_num = num
