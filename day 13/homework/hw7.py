@@ -9,6 +9,6 @@ while True:
         break
 
     if i > 0:
-        total =+ i 
+        total += i 
 
 print(total)
