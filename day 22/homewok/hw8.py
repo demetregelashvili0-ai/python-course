@@ -3,3 +3,5 @@ text = input("enter a text: ")
 
 if text.isdigit():
     print(text[0:3])
+else:
+    print("ტექსტი მხოლოდ ციფრებს არ შეიცავს")
