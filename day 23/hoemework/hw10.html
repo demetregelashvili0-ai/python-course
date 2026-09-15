@@ -1,0 +1,59 @@
+<!-- 10. შექმენი მარტივი რეგისტრაციის ფორმა
+
+შექმენი HTML ფაილი და დაამატე <form>.
+
+ფორმაში დაამატე:
+
+- label — Username
+- <input> — მომხმარებლის სახელის შესაყვანად.
+- label — Age
+- <input> — ასაკის შესაყვანად.
+- <select> — ქვეყნის ასარჩევად.
+- 5 <option> — Georgia, France, Germany, Italy, Spain.
+- button — Submit.
+
+დავალების პირობები:
+
+- Username-ის input უნდა იყოს აუცილებლად შესავსები.
+- Age-ის input უნდა იყოს type="number".
+- Age-ის მინიმალური მნიშვნელობა უნდა იყოს 18.
+- Age-ის მაქსიმალური მნიშვნელობა უნდა იყოს 100.
+- Country-ის ჩამოსაშლელ მენიუში პირველ ვარიანტად დაამატე Choose your country, რომელიც უნდა იყოს disabled. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+</head>
+<body>
+
+    <form>
+        <label for="username">Username</label>
+        <input type="text" id="username" name="username" required>
+
+        <br><br>
+
+        <label for="age">Age</label>
+        <input type="number" id="age" name="age" min="18" max="100">
+
+        <br><br>
+
+        <label for="country">Country</label>
+        <select id="country" name="country">
+            <option value="" disabled selected>Choose your country</option>
+            <option value="georgia">Georgia</option>
+            <option value="france">France</option>
+            <option value="germany">Germany</option>
+            <option value="italy">Italy</option>
+            <option value="spain">Spain</option>
+        </select>
+
+        <br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+
+</body>
+</html>
+
