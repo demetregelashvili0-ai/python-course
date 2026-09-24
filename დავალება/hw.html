@@ -1,0 +1,121 @@
+<!-- დავალება — „ჩემი საყვარელი ფილმი“
+
+შექმენი ერთი HTML გვერდი თემაზე „ჩემი საყვარელი ფილმი“.
+
+გვერდზე უნდა იყოს:
+
+სათაური
+
+h1 — ფილმის სახელი
+p — მოკლე აღწერა
+
+ფილმის ინფორმაცია
+
+შექმენი პატარა ცხრილი და ჩაწერე:
+
+ფილმის სახელი
+გამოსვლის წელი
+ჟანრი
+რეჟისორი
+
+გამოიყენე table, tr, th, td.
+
+ფილმის სურათი
+
+დაამატე ფილმის პოსტერი img-ის გამოყენებით.
+
+აუცილებლად გამოიყენე alt.
+
+პერსონაჟები
+
+შექმენი ul სია და ჩამოწერე მინიმუმ 4 მთავარი პერსონაჟი.
+
+რატომ მომწონს?
+
+შექმენი h2 და ქვემოთ დაწერე რამდენიმე წინადადება, რატომ მოგწონს ეს ფილმი.
+
+გამოიყენე:
+
+p
+strong
+em
+
+საყვარელი მომენტები
+
+შექმენი ol და ჩამოწერე ფილმიდან 3 საყვარელი მომენტი.
+
+ბმული
+
+დაამატე a ბმული, რომელიც ფილმის შესახებ სხვა საიტზე გადაიყვანს.
+
+პატარა ფორმა
+
+გვერდის ბოლოში შექმენი ფორმა:
+
+სახელი
+რომელი ჟანრი მოგწონს
+ფილმის შეფასება
+კომენტარი
+გაგზავნის ღილაკი
+
+პირობა
+
+გამოიყენე მხოლოდ HTML. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>spider man brand new day</h1>
+    <p>წარმოადგენს Marvel-ის კინოსამყაროს (MCU) ფილმს, რომლის მოვლენებიც ვითარდება</p>
+    <table border="1">
+        <tr>
+            <th>spider man brand new day</th>
+            <th>გამოშვების წელი: 2026</th>
+            <th>სევდიანი</th>
+            <th>დესთინ დანიელ კრეტონი</th>
+        </tr>
+        
+    </table>
+    <img src="https://www.google.com/imgres?q=spider%20man%20brand%20new%20day%20%E1%83%A0%E1%83%94%E1%83%9F%E1%83%98%E1%83%A1%E1%83%9D%E1%83%A0%E1%83%98&imgurl=https%3A%2F%2Fimage.tkt.ge%2Funsafe%2Frs%3Afit%3A1080%3A%2Fformat%3Ajpeg%2Fplain%2Fhttps%3A%2F%2Fstatic.tkt.ge%2Fimg%2F51a1e7c9-7011-4635-8730-1d52fd842515.jpeg&imgrefurl=https%3A%2F%2Ftkt.ge%2Fmovies%2F454%2Fspider-man-brand-new-day&docid=XRTmdHpsOfD5_M&tbnid=j8pTsAFIFcLJ8M&vet=12ahUKEwjTlbLDu_2WAxVPVPEDHTnHGc4QnPAOegQITBAA..i&w=650&h=987&hcb=2&itg=1&ved=2ahUKEwjTlbLDu_2WAxVPVPEDHTnHGc4QnPAOegQITBAA" width="200" alt="კინოს ფოტო">
+    
+    <ul><li>Tom Holland</li>
+    <li>Sadie Sink</li>
+       <li>Zendaya</li>
+       <li>Jon Bernthal</li>
+       <li>Jacob Batalon</li>
+    </ul>
+    <H2>ჩემი აზრის ძაკიან კარგი ფილმია და კარგი time line  აქვს</H2>
+    <p><strong>ჩემი საყვარელი მომენტი</strong>
+    <ul><li>დასაწყისში როდესაწ წვეულებაზე მიდეის
+    </li>
+    <em><li>დასასრულში როდესაც თავის საუკეთესო  მეგობარს თვს გაახსენებს</li></em>
+    <li>შუაში როდესაც ჰალკს ეჩხუბება</li>
+    </ul></p>
+    <a href="https://moviesanywhere.com/movie/spider-man-brand-new-day-2026"></a> 
+    <form>
+        <p>spider man brand new day</p>
+        <br><br>
+        <select name="ganra" id="ganra">
+          <option value="action">action</option>
+        <option value="comydy">comydy"</option>
+        <option value="adventure">adventure</option>
+        <option value="scrence">scrence</option>
+        </select>
+        <br><br>
+        <label for="comment">კომენტარი: </label>
+        <input type="text" id="comment" name="comment">
+        <br><br>
+        <label for="შეფასება">შეფასება</label>
+        <input type="number" id="შეფასება" name="შეფასება" min="0.5" max="10">
+        <br><br>
+        <button type="submit">გაგზავნა</button>
+       
+    </form>
+
+
+</body>
+</html>

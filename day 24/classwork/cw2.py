@@ -8,4 +8,7 @@
 #- ბოლო ელემენტი.
 
 fruits = ["Apple", "Banana", "Orange", "Mango", "Kiwi"]
-print(fruits[:0,2,4])
+
+print(fruits[0])   
+print(fruits[2])   
+print(fruits[-1])  

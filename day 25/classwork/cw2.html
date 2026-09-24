@@ -1,0 +1,33 @@
+<!-- 2. შექმენი ანგარიშის მონაცემები (Account Details)
+
+შექმენი მეორე <fieldset> თეგი, სადაც <legend>-ში ეწერება: Account Details.
+
+ჯგუფის შიგნით დაამატე:
+
+- <input> მომხმარებლის როლისთვის. value ატრიბუტში ჩაუწერე Student და გახადე readonly.
+- <input> პრომო კოდისთვის. value ატრიბუტში ჩაუწერე NOT_ACTIVE და გახადე disabled.
+- <input> Username-ის შესაყვანად. ველი უნდა იყოს აუცილებლად შესავსები (required). მინიმალური სიგრძე minlength="3", მაქსიმალური სიგრძე maxlength="15".
+- <input> უსაფრთხოების კოდისთვის (Security PIN). გამოიყენე pattern="[0-9]{4}", დაამატე title="Enter 4-digit PIN" და გახადე required. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+    <legend>Account Details</legend>
+
+    <label>Role:<input type="text" value="Student" readonly></label>
+
+    <label>Promo Code:<input type="text" value="NOT_ACTIVE" disabled></label>
+
+    <label>Username:<input type="text" required minlength="3" maxlength="15"></label>
+
+    <label>Security PIN:<input type="text" pattern="[0-9]{4}" title="Enter 4-digit PIN" required></label>
+</fieldset>
+    
+</body>
+</html>

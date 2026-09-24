@@ -1,0 +1,71 @@
+<!-- დავალება 1: Blog Settings
+
+Blog Design
+შექმენი form და პირველი fieldset (legend: Blog Design).
+დაამატე input type="color" (value="#2ecc71").
+დაამატე input type="range" (min="12", max="32", step="2").
+დაამატე input datalist-ით (3 option: Tech, Travel, Food) და placeholder="Select category...".
+
+Author Info
+შექმენი მეორე fieldset (legend: Author Info).
+დაამატე input (value="VIP Author", readonly).
+დაამატე input (value="ADS_OFF", disabled).
+დაამატე input (required, minlength="4", maxlength="12").
+დაამატე input (pattern="[0-9]{4}", title="Enter 4-digit PIN", required).
+
+Submit
+დაამატე button: Update Blog. -->
+
+<form>
+    <fieldset>
+        <legend>Blog Design</legend>
+
+        <label>Color:</label>
+        <input type="color" value="#2ecc71">
+
+        <br><br>
+
+        <label>Font Size:</label>
+        <input type="range" min="12" max="32" step="2">
+
+        <br><br>
+
+        <label>Category:</label>
+        <input list="categories" placeholder="Select category...">
+
+        <datalist id="categories">
+            <option value="Tech">
+            <option value="Travel">
+            <option value="Food">
+        </datalist>
+    </fieldset>
+
+    <br>
+
+    <fieldset>
+        <legend>Author Info</legend>
+
+        <input type="text" value="VIP Author" readonly>
+
+        <br><br>
+
+        <input type="text" value="ADS_OFF" disabled>
+
+        <br><br>
+
+        <input type="text" required minlength="4" maxlength="12">
+
+        <br><br>
+
+        <input
+            type="text"
+            pattern="[0-9]{4}"
+            title="Enter 4-digit PIN"
+            required
+        >
+    </fieldset>
+
+    <br>
+
+    <button type="submit">Update Blog</button>
+</form>

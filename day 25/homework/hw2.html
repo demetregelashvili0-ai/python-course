@@ -1,0 +1,53 @@
+<!-- დავალება 2: Store Preferences
+
+Product Filter
+შექმენი form და პირველი fieldset (legend: Product Filter).
+დაამატე input type="color" (value="#e74c3c").
+დაამატე input type="range" (min="10", max="500", step="10").
+დაამატე input datalist-ით (3 option: Nike, Adidas, Puma) და placeholder="Select brand...".
+
+Customer Info
+შექმენი მეორე fieldset (legend: Customer Info).
+დაამატე input (value="Gold Member", readonly).
+დაამატე input (value="EXPIRED", disabled).
+დაამატე input (required, minlength="2", maxlength="20").
+დაამატე input (pattern="[0-9]{4}", title="Enter 4-digit Postal Code", required).
+
+Submit
+დაამატე button: Apply Filter.
+ -->
+<form>
+    <fieldset>
+        <legend>Product Filter</legend>
+
+        <input type="color" value="#e74c3c">
+
+        <input type="range" min="10" max="500" step="10">
+
+        <input list="brands" placeholder="Select brand...">
+        <datalist id="brands">
+            <option value="Nike">
+            <option value="Adidas">
+            <option value="Puma">
+        </datalist>
+    </fieldset>
+
+    <fieldset>
+        <legend>Customer Info</legend>
+
+        <input type="text" value="Gold Member" readonly>
+
+        <input type="text" value="EXPIRED" disabled>
+
+        <input type="text" required minlength="2" maxlength="20">
+
+        <input
+            type="text"
+            pattern="[0-9]{4}"
+            title="Enter 4-digit Postal Code"
+            required
+        >
+    </fieldset>
+
+    <button type="submit">Apply Filter</button>
+</form>
