@@ -1,0 +1,62 @@
+<!-- დავალება 5: Fitness Tracker
+
+Workout Preferences
+შექმენი form და პირველი fieldset (legend: Workout Preferences).
+დაამატე input type="color" (value="#f1c40f").
+დაამატე input type="range" (min="10", max="120", step="5").
+დაამატე input datalist-ით (3 option: Gym, Home, Park) და placeholder="Select location...".
+
+Athlete Profile
+შექმენი მეორე fieldset (legend: Athlete Profile).
+დაამატე input (value="Amateur", readonly).
+დაამატე input (value="NONE", disabled).
+დაამატე input (required, minlength="3", maxlength="15").
+დაამატე input (pattern="[0-9]{4}", title="Enter 4-digit PIN", required).
+
+Submit
+დაამატე button: Save Fitness.
+ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+    <fieldset>
+        <legend>Workout Preferences</legend>
+
+        <input type="color" value="#f1c40f">
+
+        <input type="range" min="10" max="120" step="5">
+
+        <input list="locations" placeholder="Select location...">
+        <datalist id="locations">
+            <option value="Gym">
+            <option value="Home">
+            <option value="Park">
+        </datalist>
+    </fieldset>
+
+    <fieldset>
+        <legend>Athlete Profile</legend>
+
+        <input type="text" value="Amateur" readonly>
+
+        <input type="text" value="NONE" disabled>
+
+        <input type="text" required minlength="3" maxlength="15">
+
+        <input type="text"
+               pattern="[0-9]{4}"
+               title="Enter 4-digit PIN"
+               required>
+    </fieldset>
+
+    <button type="submit">Save Fitness</button>
+</form>
+    
+</body>
+</html>

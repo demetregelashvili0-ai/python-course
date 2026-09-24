@@ -1,0 +1,61 @@
+<!-- დავალება 4: Music Player
+
+Player Preferences
+შექმენი form და პირველი fieldset (legend: Player Preferences).
+დაამატე input type="color" (value="#1abc9c").
+დაამატე input type="range" (min="0", max="20", step="1").
+დაამატე input datalist-ით (3 option: Rock, Jazz, Pop) და placeholder="Select genre...".
+
+Subscription Info
+შექმენი მეორე fieldset (legend: Subscription Info).
+დაამატე input (value="Premium Plan", readonly).
+დაამატე input (value="INACTIVE", disabled).
+დაამატე input (required, minlength="3", maxlength="25").
+დაამატე input (pattern="[0-9]{4}", title="Enter 4-digit PIN", required).
+
+Submit
+დაამატე button: Save Player. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+    <fieldset>
+        <legend>Player Preferences</legend>
+
+        <input type="color" value="#1abc9c">
+
+        <input type="range" min="0" max="20" step="1">
+
+        <input list="genres" placeholder="Select genre...">
+        <datalist id="genres">
+            <option value="Rock">
+            <option value="Jazz">
+            <option value="Pop">
+        </datalist>
+    </fieldset>
+
+    <fieldset>
+        <legend>Subscription Info</legend>
+
+        <input type="text" value="Premium Plan" readonly>
+
+        <input type="text" value="INACTIVE" disabled>
+
+        <input type="text" required minlength="3" maxlength="25">
+
+        <input type="text"
+               pattern="[0-9]{4}"
+               title="Enter 4-digit PIN"
+               required>
+    </fieldset>
+
+    <button type="submit">Save Player</button>
+</form>
+    
+</body>
+</html>

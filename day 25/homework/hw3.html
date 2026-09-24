@@ -1,0 +1,61 @@
+<!-- დავალება 3: Game Settings
+
+Audio & Graphics
+შექმენი form და პირველი fieldset (legend: Audio & Graphics).
+დაამატე input type="color" (value="#9b59b6").
+დაამატე input type="range" (min="0", max="100", step="10").
+დაამატე input datalist-ით (3 option: Europe, Asia, NA) და placeholder="Select server...".
+
+Player Account
+შექმენი მეორე fieldset (legend: Player Account).
+დაამატე input (value="Pro Gamer", readonly).
+დაამატე input (value="NO_BAN", disabled).
+დაამატე input (required, minlength="5", maxlength="10").
+დაამატე input (pattern="[0-9]{4}", title="Enter 4-digit PIN", required).
+
+Submit
+დაამატე button: Save Game. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+    <fieldset>
+        <legend>Audio & Graphics</legend>
+
+        <input type="color" value="#9b59b6">
+
+        <input type="range" min="0" max="100" step="10">
+
+        <input list="servers" placeholder="Select server...">
+        <datalist id="servers">
+            <option value="Europe">
+            <option value="Asia">
+            <option value="NA">
+        </datalist>
+    </fieldset>
+
+    <fieldset>
+        <legend>Player Account</legend>
+
+        <input type="text" value="Pro Gamer" readonly>
+
+        <input type="text" value="NO_BAN" disabled>
+
+        <input type="text" required minlength="5" maxlength="10">
+
+        <input type="text"
+               pattern="[0-9]{4}"
+               title="Enter 4-digit PIN"
+               required>
+    </fieldset>
+
+    <button type="submit">Save Game</button>
+</form>
+    
+</body>
+</html>

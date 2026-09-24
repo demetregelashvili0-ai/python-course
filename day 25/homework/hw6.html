@@ -1,0 +1,44 @@
+<!-- დავალება 6: Hotel Booking
+
+Room Preferences
+შექმენი form და პირველი fieldset (legend: Room Preferences).
+დაამატე input type="color" (value="#e67e22").
+დაამატე input type="range" (min="16", max="30", step="1").
+დაამატე input datalist-ით (3 option: Sea, Mountain, City) და placeholder="Select view...".
+
+Guest Details
+შექმენი მეორე fieldset (legend: Guest Details).
+... (43 lines left) -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+    <fieldset>
+        <legend>Room Preferences</legend>
+
+        <input type="color" value="#e67e22">
+
+        <input type="range" min="16" max="30" step="1">
+
+        <input list="views" placeholder="Select view...">
+        <datalist id="views">
+            <option value="Sea">
+            <option value="Mountain">
+            <option value="City">
+        </datalist>
+    </fieldset>
+
+    <fieldset>
+        <legend>Guest Details</legend>
+
+       
+    </fieldset>
+</form>
+    
+</body>
+</html>
