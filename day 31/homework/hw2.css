@@ -1,0 +1,46 @@
+
+
+h1 {
+    color: #333;
+}
+
+button {
+    display: inline;
+    margin: 10px;
+    padding: 12px 20px;
+    cursor: pointer;
+    border-radius:20px;
+}
+
+
+.btn1 {
+    background-color: blue;
+    color: white;
+    border:darkblue;
+}
+
+
+.btn2 {
+    background-color: green;
+    color: white;
+    border: darkgreen;
+}
+
+.btn3 {
+    background-color: yellow;
+    color: black;
+    border: orange;
+}
+
+.btn4 {
+    background-color: red;
+    color: white;
+    border: darkred;
+}
+
+
+.btn5 {
+    background-color: purple;
+    color: white;
+    border:  pink;
+}

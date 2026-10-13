@@ -37,7 +37,7 @@
     height: 400px;
     padding: 25px;
     box-sizing: border-box;
-    background-color: #eeeeee;
+    background-color: white;
     border-radius: 15px;
     margin: auto;
 }
@@ -45,14 +45,14 @@
 .product-card h1 {
     font-family: Georgia, serif;
     font-size: 24px;
-    color: #222222;
+    color: black;
     margin-bottom: 20px;
 }
 
 .product-card p {
     font-family: Arial, sans-serif;
     font-size: 16px;
-    color: #777777;
+    color: gray;
     line-height: 1.5;
     margin-bottom: 25px;
 }
@@ -65,7 +65,7 @@
 }
 
 button {
-    background-color: #1677d2;
+    background-color: blue;
     color: white;
     border: none;
     padding: 12px 25px;
@@ -75,5 +75,5 @@ button {
 }
 
 button:hover {
-    background-color: #0f5fab;
+    background-color: cornflowerblue;
 }

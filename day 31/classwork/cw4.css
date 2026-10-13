@@ -1,0 +1,15 @@
+ .menu {
+            background-color: #222;
+            padding: 10px;
+            width: 150px;
+        }
+
+.a {
+            display: block;
+            color: white;
+            display : none;
+            padding: 12px;
+        }
+.a {
+            background-color: #555;
+        }

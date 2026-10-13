@@ -1,0 +1,49 @@
+/* 1) შექმენი ვებგვერდი, რომელზეც იქნება 3 დიდი ბარათი. თითოეულ ბარათს გაუკეთე განსხვავებული ფონი, ჩარჩო, სიგანე და სიმაღლე.
+ გამოიყენე `display: block`, დაამატე `padding`, `margin`, `border-radius` და `box-shadow`. თითოეულ ბარათში მოათავსე სათაური და აღწერა. ეცადე, ბარათები ლამაზად გააფორმო. */
+ 
+h1 {
+    color: #222;
+    margin-bottom: 30px;
+}
+
+.card {
+    display: block;
+    padding: 25px;
+    margin: 25px auto;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    text-align: left;
+}
+
+.card h2 {
+    margin-top: 0;
+}
+
+.card p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+
+.card1 {
+    background-color: #d8f3dc;
+    border: 3px solid #40916c;
+    width: 400px;
+    height: 130px;
+}
+
+
+.card2 {
+    background-color: #dbeafe;
+    border: 3px solid #2563eb;
+    width: 350px;
+    height: 150px;
+}
+
+
+.card3 {
+    background-color: #ffedd5;
+    border: 3px solid #ea580c;
+    width: 300px;
+    height: 170px;
+}

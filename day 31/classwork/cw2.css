@@ -1,0 +1,24 @@
+ button {
+            display: inline;
+            color: white;
+            margin: 10px;
+            padding: 10px;
+        }
+
+        .red {
+            background-color: red;
+            width: 150px;
+            height: 60px;
+        }
+
+        .blue {
+            background-color: blue;
+        }
+
+        .green {
+            background-color: green;
+        }
+
+        .orange {
+            background-color: orange;
+        }

@@ -1,0 +1,88 @@
+
+h1 {
+    color: #1e293b;
+    margin-bottom: 30px;
+}
+
+.product {
+    display: inline-block;
+    vertical-align: top;
+    margin: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.product h2 {
+    font-size: 20px;
+}
+
+.product p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+
+
+.product1 {
+    background-color: #293f5c;
+    width: 180px;
+    height: 180px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.product1 button {
+    background-color: #2563eb;
+}
+
+
+.product2 {
+    background-color: #0a381a;
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    padding: 25px;
+}
+
+.product2 button {
+    background-color: #16a34a;
+}
+
+
+.product3 {
+    background-color: #b69b32;
+    width: 160px;
+    height: 190px;
+    border-radius: 30px;
+    padding: 30px;
+}
+
+.product3 button {
+    background-color: #d97706;
+}
+
+
+.product4 {
+    background-color: #ac3277;
+    width: 220px;
+    height: 210px;
+    border-radius: 15px 40px;
+    padding: 25px;
+}
+
+.product4 button {
+    background-color: #29121d;
+}

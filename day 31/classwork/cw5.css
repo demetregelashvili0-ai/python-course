@@ -1,0 +1,56 @@
+
+.card1{
+        display: block;
+        background-color: lightblue;
+        border: 3px solid blue;
+        width: 200px;
+        height: 100px;
+        padding: 20px;
+        border-radius: 15px;
+            box-shadow: 5px 5px 10px gray;
+        margin: 20px;
+        }
+
+.card4{display: block;
+        background-color: lightgreen;
+         border: 4px green;
+        width: 250px;
+        height: 120px;
+        padding: 15px;
+        border-radius: 20px;
+        box-shadow: 5px 5px 10px gray;
+        margin: 20px;
+        }
+.card2 {display:none;
+    width: 300px;
+    
+    background-color: blue;
+    margin: 15px;
+    padding: 20px;
+    border: 5px;
+    border-radius: 20px;
+    color: red;
+    
+    
+}
+.card3 {
+        display: block;
+        background-color: lightpink;
+        border: 3px red;
+        width: 180px;
+        height: 150px;
+        padding: 25px;
+        border-radius: 10px;
+        box-shadow: 5px 5px 10px gray;
+        margin: 20px;
+        }
+.card4{display: block;
+    background-color: lightgreen;
+     border: 4px green;
+    width: 250px;
+    height: 120px;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px gray;
+    margin: 20px;
+        }
