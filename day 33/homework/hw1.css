@@ -1,0 +1,27 @@
+.box1{
+    background-color: aqua;
+    border-radius:20px ;
+    height: 200px;
+    width: 100px;
+    position: static;
+    margin: 20px;
+    padding: 20px;
+}
+.box2{
+    background-color: blue;
+    border-radius:20px ;
+    height: 100px;
+    width: 200px;
+    position: static;
+    margin: 20px;
+    padding: 20px;
+}
+.box3{
+    position: static;
+    background-color: rgb(226, 207, 35);
+    border-radius:20px ;
+    height: 200px;
+    width: 150px;
+    margin: 20px;
+    padding: 20px;
+}

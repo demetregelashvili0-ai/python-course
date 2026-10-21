@@ -32,7 +32,6 @@ goto(200, 200)
 pendown()
 
 
-
 color ("blue")
 begin_fill()
 right (150)

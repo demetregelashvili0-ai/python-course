@@ -1,0 +1,24 @@
+.card {
+    position: static;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.card1 {
+    background-color: lightblue;
+    width: 150px;
+    height: 80px;
+}
+
+.card2 {
+    background-color: lightgreen;
+    width: 200px;
+    height: 100px;
+}
+
+.card3 {
+    background-color: lightcoral;
+    width: 250px;
+    height: 120px;
+}

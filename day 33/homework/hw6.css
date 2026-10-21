@@ -1,0 +1,22 @@
+.container{
+position: relative;
+width: 400px;
+height: 300px;
+}
+
+.card1{
+position: absolute;
+top: 30px;
+left: 30px;
+width: 180px;
+height: 120px;
+background-color: red;
+}
+.card2{
+position: absolute;
+top: 90px;
+left: 120px;
+width: 180px;
+height: 120px;
+background-color: blue;
+}

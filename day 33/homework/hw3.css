@@ -1,0 +1,17 @@
+
+.container {
+    width: 500px;
+    height: 300px;
+    background-color: lightblue;
+    position: relative;
+    border-radius: 20px ;
+}
+
+.card {
+    width: 150px;
+    height: 100px;
+    background-color: orange;
+    position: absolute;
+    border-radius: 20px ;
+    
+}

@@ -1,0 +1,9 @@
+.box {
+            background-color: lightblue;
+            width: 200px;
+            padding: 20px;
+            position: relative;
+            top: 30px;
+            left: 40px;
+            border-radius: 10 px;
+        }
