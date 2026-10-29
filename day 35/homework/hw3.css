@@ -1,0 +1,28 @@
+
+.header {
+    text-align: center;
+    padding: 20px;
+    background-color: #ddd;
+    position: sticky;
+    top: 0px;
+    box-shadow: 0px rgb(161, 101, 77);
+    z-index: 0px;
+    border: 20px;
+    border-radius: 20px;
+}
+
+.section {
+    margin: 20px;
+    padding: 20px;
+    min-height: 180px;
+    background: rgb(197, 12, 12);
+    margin: 12px;
+    width: 200px;
+    height: 200px;
+    border: 20px;
+    border-radius: 20px;
+
+}
+.help{position:fixed;
+bottom: 0px;
+left: 0px;}

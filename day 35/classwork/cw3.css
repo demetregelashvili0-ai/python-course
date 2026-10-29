@@ -1,0 +1,19 @@
+
+header {
+    background: navy;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 10px;
+}
+
+section {
+    background: white;
+    padding: 30px;
+    margin: 20px;
+    min-height: 150px;
+}

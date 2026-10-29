@@ -1,0 +1,32 @@
+
+.card {
+    width: 250px;
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid #333;
+    border-radius: 15px;
+}
+
+.card1 {
+    background-color: lightblue;
+    position: static;
+}
+
+.card2 {
+    background-color: lightgreen;
+    position: static;
+}
+
+.card3 {
+    background-color: lightcoral;
+    position: relative;
+    top: 20px;
+    left: 40px;
+}
+
+.card4 {
+    background-color: khaki;
+    position: relative;
+    bottom: 20px;
+    right: 30px;
+}
