@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px;
+    background-color: lightgray;
+}
+
+.card {
+    width: 120px;
+    height: 150px;
+    background-color: dodgerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+}

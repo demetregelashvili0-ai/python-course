@@ -1,0 +1,23 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 40px;
+}
+
+.logo {
+    color: white;
+    font-size: 25px;
+}
+
+.buttons{
+    display: flex;
+    gap: 15px;
+}
+
+button{
+    padding: 10px;
+    background-color: dodgerblue;
+    color: white;
+}
