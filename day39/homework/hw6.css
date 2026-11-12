@@ -1,0 +1,26 @@
+.bigbox {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    border: 2px solid black;
+}
+
+.card {
+    width: 150px;
+    height: 100px;
+    background-color: lightblue;
+    border: 2px solid blue;
+    text-align: center;
+}
+
+.card1 {
+    align-self: flex-start;
+}
+
+.card2 {
+    align-self: center;
+}
+
+.card3 {
+    align-self: flex-end;
+}

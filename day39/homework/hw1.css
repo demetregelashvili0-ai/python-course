@@ -1,0 +1,35 @@
+.bigbox{
+    background-color: rgb(216, 184, 142);
+    width: 1500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+}
+.box{
+    background-color: aqua;
+    border: 2px solid black;
+    gap: 20px;
+    margin:20px;
+
+}
+
+.box1{
+    width: 200px;
+    height: 100px;
+    background-color: brown;
+    
+}
+.box2{
+    width: 100px;
+    height: 300px;
+    background-color: rgb(32, 231, 138);
+    
+}
+.box3{
+    width: 400px;
+    height: 200px;
+    background-color: rgb(57, 117, 145);
+    
+}

@@ -1,0 +1,17 @@
+.bigbox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 20px;
+    width: 400px;
+    height: 300px;
+    margin: auto;
+    background-color: black;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
