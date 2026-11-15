@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  flex-flow: row wrap-reverse;
+  gap: 10px;
+  width: 350px;
+}
+
+.card {
+  width: 60px;
+  height: 60px;
+  background-color: steelblue;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+}

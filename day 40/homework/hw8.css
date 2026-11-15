@@ -1,0 +1,19 @@
+.products {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+}
+
+.product {
+  width: 150px;
+  height: 120px;
+  background-color: steelblue;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  font-size: 16px;
+}

@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.card {
+    width: 150px;
+    height: 100px;
+    background-color: lightblue;
+    border: 2px solid blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
