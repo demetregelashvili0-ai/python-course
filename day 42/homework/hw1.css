@@ -1,0 +1,43 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: white;
+}
+
+.box1 {
+    background-color: rgb(78, 128, 97);
+    height: 150px;
+}
+
+.box2 {
+    background-color: rgb(39, 10, 24);
+    height: 200px;
+}
+
+.box3 {
+    background-color: rgba(49, 85, 49, 0.616);
+    height: 120px;
+}
+
+.box4 {
+    background-color: rgb(158, 113, 115);
+    height: 180px;
+}
+
+.box5 {
+    background-color: rgba(81, 140, 180, 0.445);
+    height: 140px;
+}
+
+.box6 {
+    background-color: rgba(58, 116, 83, 0.644);
+    height: 220px;
+}

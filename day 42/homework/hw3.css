@@ -1,0 +1,43 @@
+.container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 15px;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 24px;
+}
+
+.box1 {
+    background-color: red;
+    height: 150px;
+}
+
+.box2 {
+    background-color: blue;
+    height: 200px;
+}
+
+.box3 {
+    background-color: green;
+    height: 120px;
+}
+
+.box4 {
+    background-color: orange;
+    height: 180px;
+}
+
+.box5 {
+    background-color: purple;
+    height: 140px;
+}
+
+.box6 {
+    background-color: brown;
+    height: 220px;
+}
