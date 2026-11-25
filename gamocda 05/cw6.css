@@ -1,0 +1,18 @@
+.bigbox{
+        display: flex;
+    justify-content: center;
+    
+}
+
+.box{
+    color: aqua;
+    background-color: black;
+    border: 2px red solid;
+    border-radius: 20px;
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
